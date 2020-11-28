@@ -65,5 +65,6 @@ public class Apple {
         List<Apple> collect = list.stream().filter((Apple apple) -> "green".equals(apple.getColor())).collect(Collectors.toList());
         System.out.println(collect);
 
+        System.out.println("aa");
     }
 }
